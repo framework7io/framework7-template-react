@@ -1,9 +1,9 @@
 # Framework7 React App Template
 
-To get started, clone this repo:
+To get started, clone this repo as whatever you want to name your app:
 
 ```
-git clone https://github.com/bencompton/framework7-react-app-template/
+git clone https://github.com/bencompton/framework7-react-app-template/ my-app
 ```
 
 Running the app:
