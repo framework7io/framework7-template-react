@@ -9,6 +9,7 @@ git clone https://github.com/bencompton/framework7-react-app-template/ my-app
 Running the app:
 
 ```
+npm install
 npm start
 ```
 
