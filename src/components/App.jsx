@@ -1,10 +1,5 @@
 import React from 'react';
-// import {
-//   Framework7App, Views, View, Pages, Page, Panel, 
-//   Navbar, NavLeft, NavCenter, NavRight, Statusbar, 
-//   Input, Label, Link, List, ListItem, ListButton, LoginScreen, LoginScreenTitle,
-//   GridRow, GridCol, ContentBlock, ContentBlockTitle, Button, Popup
-// } from 'framework7-react';
+
 import {
   Framework7App, Statusbar, Panel, View, Navbar, Pages, Page, ContentBlock, ContentBlockTitle, 
   List, ListItem, Views, NavLeft, Link, NavCenter, NavRight, GridRow, GridCol, Button, Popup,
