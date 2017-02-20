@@ -89,8 +89,7 @@ export const App = () => (
 						<ContentBlockTitle>Navigation</ContentBlockTitle>
 						<List>
 							<ListItem link="/about/" title="About"></ListItem>
-							<ListItem link="/form/" title="Form"></ListItem>
-							<ListItem link="/dynamic-route/blog/45/post/125/?foo=bar#about" title="Dynamic Route"></ListItem>
+							<ListItem link="/form/" title="Form"></ListItem>							
 						</List>
 						<ContentBlockTitle>Side Panels</ContentBlockTitle>
 						<ContentBlock>
@@ -160,7 +159,6 @@ export const App = () => (
 					</Page>
 				</Pages>
 			</View>
-		</LoginScreen>
-		
+		</LoginScreen>		
 	</Framework7App>  
 );
