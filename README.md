@@ -16,15 +16,9 @@ npm start
 To build your app for deployment, run:
 
 ```
-npm build
+npm run build
 ```
 
 The build folder will then contain all of your app's files, optimized and ready for deployment.
-
-To build your app for production, run:
-
-```
-npm run build
-```
 
 This template was created with [Create React App](https://github.com/facebookincubator/create-react-app). It is suggested that you read more about Create React App to understand the full capabilities of the toolset.
