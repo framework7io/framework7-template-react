@@ -7,7 +7,7 @@
   },
   "dependencies": {
     "framework7": "^1.5.3",
-    "framework7-react": "^0.9.1",
+    "framework7-react": "^0.9.3-2",
     "react": "^15.4.2",
     "react-dom": "^15.4.2"
   },
