@@ -3,7 +3,7 @@
 To get started, clone this repo as whatever you want to name your app:
 
 ```
-git clone https://github.com/bencompton/framework7-react-app-template/ my-app
+git clone https://github.com/framework7io/framework7-react-app-template/ my-app
 ```
 
 Running the app:
@@ -25,4 +25,4 @@ This template was created with [Create React App](https://github.com/facebookinc
 
 ### Issues
 
-Please log any issues to the main [framework7-react repo](https://github.com/bencompton/framework7-react/issues).
+Please log any issues to the main [framework7 repo](https://github.com/framework7io/framework7/issues).
