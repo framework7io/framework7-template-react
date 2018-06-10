@@ -25,4 +25,4 @@ This template was created with [Create React App](https://github.com/facebookinc
 
 ### Issues
 
-Please log any issues to the main [framework7 repo](https://github.com/framework7io/framework7/issues).
+Please log any issues to the main [Framework7 repo](https://github.com/framework7io/framework7/issues).
