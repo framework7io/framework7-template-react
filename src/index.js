@@ -1,18 +1,16 @@
-import 'framework7/dist/css/framework7.ios.min.css';
-import 'framework7/dist/css/framework7.ios.colors.min.css';
-
-/* OR for Material Theme:
-import 'framework7/dist/css/framework7.material.min.css'
-import 'framework7/dist/css/framework7.material.colors.min.css'
-*/
-
-import './css/app.css';
-
 import React from 'react';
-import ReactDOM from 'react-dom';
-import {App} from './components/App';
+import ReactDOM from 'react-dom/cjs/react-dom.production.min';
+import Framework7 from 'framework7/framework7.esm.bundle';
+import Framework7React from 'framework7-react';
 
+import App from './components/App.jsx';
+
+import 'framework7/css/framework7.min.css';
+
+Framework7.use(Framework7React);
+
+// Mount React App
 ReactDOM.render(
-  <App />,
-  document.getElementById('root')
+  React.createElement(App),
+  document.getElementById('app'),
 );

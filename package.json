@@ -1,20 +1,35 @@
 {
-  "name": "my-app",
-  "version": "0.1.0",
+  "name": "framework7-react-app-template",
+  "version": "3.0.0",
   "private": true,
-  "devDependencies": {
-    "react-scripts": "0.9.0"
-  },
   "dependencies": {
-    "framework7": "^1.5.3",
-    "framework7-react": "^0.9.3-2",
-    "react": "^15.4.2",
-    "react-dom": "^15.4.2"
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0-beta.49",
+    "framework7": "^3.0.0-beta.8",
+    "framework7-react": "^3.0.0-beta.8",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "react-scripts": "2.0.0-next.66cc7a90"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-object-rest-spread": "^6.26.0"
+  },
+  "browserslist": {
+    "development": [
+      "last 2 chrome versions",
+      "last 2 firefox versions",
+      "last 2 edge versions"
+    ],
+    "production": [
+      ">1%",
+      "last 4 versions",
+      "Firefox ESR",
+      "not ie < 11"
+    ]
   }
 }
