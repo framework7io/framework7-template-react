@@ -21,7 +21,7 @@ export default class DynamicRoutePage extends Component {
             <li><b>Query:</b>
               <ul>
                 {Object.keys(this.$f7route.query).map(key => (
-                  <li key={key}><b>{key}:</b> {this.$f7rouote.query[key]}</li>
+                  <li key={key}><b>{key}:</b> {this.$f7route.query[key]}</li>
                 ))}
               </ul>
             </li>
