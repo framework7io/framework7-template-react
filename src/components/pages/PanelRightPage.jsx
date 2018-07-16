@@ -3,8 +3,8 @@ import { Page, Navbar, Block, BlockTitle, List, ListItem } from 'framework7-reac
 
 export default () => (
   <Page>
-    <Navbar title="Right Panel" sliding />
-    <Block>
+    <Navbar title="Right Panel" />
+    <Block strong>
       <p>Right panel content goes here</p>
     </Block>
     <BlockTitle>Load page in panel</BlockTitle>

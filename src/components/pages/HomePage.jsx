@@ -20,11 +20,11 @@ export default () => (
   <Page>
     <Navbar>
       <NavLeft>
-        <Link iconIfIos="f7:menu" iconIfMd="material:menu" panelOpen="left"></Link>
+        <Link iconIos="f7:menu" iconMd="material:menu" panelOpen="left"></Link>
       </NavLeft>
       <NavTitle>My App</NavTitle>
       <NavRight>
-        <Link iconIfIos="f7:menu" iconIfMd="material:menu" panelOpen="right"></Link>
+        <Link iconIos="f7:menu" iconMd="material:menu" panelOpen="right"></Link>
       </NavRight>
     </Navbar>
     <Toolbar>

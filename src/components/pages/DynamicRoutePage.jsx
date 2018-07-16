@@ -15,7 +15,7 @@ export default class DynamicRoutePage extends Component {
               <ul>
                 {Object.keys(this.$f7route.params).map(key => (
                   <li key={key}><b>{key}:</b> {this.$f7route.params[key]}</li>
-                ))}            
+                ))}
               </ul>
             </li>
             <li><b>Query:</b>
@@ -25,11 +25,11 @@ export default class DynamicRoutePage extends Component {
                 ))}
               </ul>
             </li>
-            <li><b>Route:</b> {this.$f7route.route}</li>
+            <li><b>Route:</b> {JSON.stringify(this.$f7route.route)}</li>
           </ul>
         </Block>
         <Block strong>
-          <Link onClick={this.$f7router.back()}>Go back via Router API</Link>
+          <Link onClick={() => this.$f7router.back()}>Go back via Router API</Link>
         </Block>
       </Page>
     );

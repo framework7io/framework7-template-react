@@ -72,14 +72,14 @@ export default () => (
     <BlockTitle>Checkbox group</BlockTitle>
     <List form>
         {Array.from(Array(3).keys()).map(n => (
-            <ListItem key={n} checkbox name="my-checkbox" value={n} title={`Checkbox ${n}`} />
+            <ListItem key={n} checkbox name="my-checkbox" value={n + 1} title={`Checkbox ${n + 1}`} />
         ))}
     </List>
 
     <BlockTitle>Radio buttons group</BlockTitle>
     <List form>
         {Array.from(Array(3).keys()).map(n => (
-            <ListItem key={n} radio name="my-radio" checked={n === 1} value={n} title={`Radio ${n}`} />    
+            <ListItem key={n} radio name="my-radio" checked={n === 0} value={n + 1} title={`Radio ${n + 1}`} />
         ))}
     </List>
 
