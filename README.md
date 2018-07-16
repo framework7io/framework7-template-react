@@ -1,4 +1,4 @@
-# Framework7 React App Template
+# Framework7 v3 React App Template
 
 To get started, clone this repo as whatever you want to name your app:
 
