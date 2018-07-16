@@ -1,8 +1,8 @@
 // Import React and ReactDOM
 import React from 'react';
-import ReactDOM from 'react-dom/cjs/react-dom.production.min';
+import ReactDOM from 'react-dom';
 
-// Import F7
+// Import Framework7
 import Framework7 from 'framework7/framework7.esm.bundle';
 
 // Import F7 React Plugin
@@ -15,6 +15,9 @@ import App from './components/App.jsx';
 import 'framework7/css/framework7.min.css';
 import 'framework7-icons/css/framework7-icons.css';
 import 'material-design-icons/iconfont/material-icons.css';
+
+// Custom App styles
+import './css/app.css';
 
 // Init F7 React Plugin
 Framework7.use(Framework7React);
