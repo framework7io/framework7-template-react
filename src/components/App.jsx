@@ -47,7 +47,7 @@ export default function (props) {
       </Panel>
 
       {/* Main View */}
-      <View id="main-view" url="/" main className="ios-edges"/>
+      <View id="main-view" url="/" main className="safe-areas"/>
 
       {/* Popup */}
       <Popup id="popup">
