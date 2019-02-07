@@ -63,7 +63,7 @@ export default () => (
         label="Slider"
         input={false}
       >
-        <Range slot="input" min={0} max={100} value={50} step={1} />
+        <Range label={true} slot="input" min={0} max={100} value={50} step={1} />
       </ListInput>
       <ListInput
         label="Textarea"
