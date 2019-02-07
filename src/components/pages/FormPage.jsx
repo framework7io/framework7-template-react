@@ -4,8 +4,7 @@ import {
   Navbar,
   List,
   ListItem,
-  Input,
-  Label,
+  ListInput,
   Toggle,
   BlockTitle,
   Row,
@@ -19,54 +18,64 @@ export default () => (
     <Navbar title="Form" backLink="Back" />
     <BlockTitle>Form Example</BlockTitle>
     <List form>
-      <ListItem>
-        <Label>Name</Label>
-        <Input type="text" placeholder="Name" />
-      </ListItem>
-      <ListItem>
-        <Label>E-mail</Label>
-        <Input type="email" placeholder="E-mail" />
-      </ListItem>
-      <ListItem>
-        <Label>URL</Label>
-        <Input type="url" placeholder="URL" />
-      </ListItem>
-      <ListItem>
-        <Label>Password</Label>
-        <Input type="password" placeholder="Password" />
-      </ListItem>
-      <ListItem>
-        <Label>Phone</Label>
-        <Input type="tel" placeholder="Phone" />
-      </ListItem>
-      <ListItem>
-        <Label>Gender</Label>
-        <Input type="select">
-          <option selected>Male</option>
-          <option>Female</option>
-        </Input>
-      </ListItem>
-      <ListItem>
-        <Label>Birth date</Label>
-        <Input type="date" placeholder="Birth date" value="2014-04-30" />
-      </ListItem>
+      <ListInput
+        label="Name"
+        type="text"
+        placeholder="Name"
+      />
+      <ListInput
+        label="E-mail"
+        type="email"
+        placeholder="E-mail"
+      />
+      <ListInput
+        label="URL"
+        type="url"
+        placeholder="URL"
+      />
+      <ListInput
+        label="Password"
+        type="password"
+        placeholder="Password"
+      />
+      <ListInput
+        label="Phone"
+        type="tel"
+        placeholder="Phone"
+      />
+      <ListInput
+        label="Gender"
+        type="select"
+        defaultValue="Male"
+      >
+        <option>Male</option>
+        <option>Female</option>
+      </ListInput>
+      <ListInput
+        label="Birth date"
+        type="date"
+        placeholder="Birth date" value="2014-04-30"
+      />
       <ListItem title="Toggle">
         <Toggle slot="after" />
       </ListItem>
-      <ListItem>
-        <Label>Slider</Label>
-        <Input>
-          <Range min="0" max="100" value="50" step="1" label={true} />
-        </Input>
-      </ListItem>
-      <ListItem>
-        <Label>Textarea</Label>
-        <Input type="textarea" placeholder="Bio"></Input>
-      </ListItem>
-      <ListItem>
-        <Label>Resizable</Label>
-        <Input type="textarea" placeholder="Bio" resizable></Input>
-      </ListItem>
+      <ListInput
+        label="Slider"
+        input={false}
+      >
+        <Range slot="input" min={0} max={100} value={50} step={1} />
+      </ListInput>
+      <ListInput
+        label="Textarea"
+        type="textarea"
+        placeholder="Bio"
+      />
+      <ListInput
+        label="Resizable"
+        type="textarea"
+        placeholder="Bio"
+        resizable
+      />
     </List>
 
     <BlockTitle>Checkbox group</BlockTitle>
@@ -79,7 +88,7 @@ export default () => (
     <BlockTitle>Radio buttons group</BlockTitle>
     <List form>
         {Array.from(Array(3).keys()).map(n => (
-            <ListItem key={n} radio name="my-radio" checked={n === 0} value={n + 1} title={`Radio ${n + 1}`} />
+            <ListItem key={n} radio name="my-radio" defaultChecked={n === 0} value={n + 1} title={`Radio ${n + 1}`} />
         ))}
     </List>
 
@@ -110,12 +119,12 @@ export default () => (
         <Button className="col" small round fill>Small Round</Button>
       </Row>
       <Row tag="p">
-        <Button className="col" big raised>Big</Button>
-        <Button className="col" big fill raised>Big Fill</Button>
+        <Button className="col" large raised>Large</Button>
+        <Button className="col" large fill raised>Large Fill</Button>
       </Row>
       <Row tag="p">
-        <Button className="col" big fill raised color="red">Big Red</Button>
-        <Button className="col" big fill raised color="green">Big Green</Button>
+        <Button className="col" large fill raised color="red">Large Red</Button>
+        <Button className="col" large fill raised color="green">Large Green</Button>
       </Row>
     </Block>
   </Page>

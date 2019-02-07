@@ -27,7 +27,7 @@ export default () => (
         <Link iconIos="f7:menu" iconMd="material:menu" panelOpen="right"></Link>
       </NavRight>
     </Navbar>
-    <Toolbar>
+    <Toolbar bottom>
       <Link>Left Link</Link>
       <Link>Right Link</Link>
     </Toolbar>

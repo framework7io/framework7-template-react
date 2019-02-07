@@ -12,7 +12,7 @@ import Framework7React from 'framework7-react';
 import App from './components/App.jsx';
 
 // Framework7 styles
-import 'framework7/css/framework7.min.css';
+import 'framework7/css/framework7.bundle.css';
 
 // Icons
 import './css/icons.css';
